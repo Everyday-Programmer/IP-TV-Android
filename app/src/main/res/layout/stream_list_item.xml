@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10sp"
+    app:cardCornerRadius="15sp"
+    android:layout_margin="3sp"
+    style="@style/Widget.Material3.CardView.Filled">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_channel"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_url"
+            android:layout_below="@id/list_item_channel"/>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
